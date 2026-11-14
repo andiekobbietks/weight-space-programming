@@ -1,5 +1,13 @@
 # Weight-Space Programming: LLMs Writing Neural Network Weights
 
+## Origin
+
+This repository started from a LinkedIn post by Jens Lehmann (Principal Scientist, Amazon Alexa AI) on November 2026, sharing the MIT CSAIL paper "Sparks of Weight-Space Programming." The post described how GPT-6 Astra could write neural network weights directly without training, achieving 68-90% success on unseen game levels.
+
+The claim sounded like a breakthrough: AI had learned "neural intuition." But reading the comments and following the links revealed two independent audits (Lehmann's own replication across 9 models and 20 games, and Lorenzo Ciarpaglini's forensic reverse-engineering) that told a different story. The weights were 93-97% zeros. The networks contained lookup tables and AND/NOT gates. They were programs compiled into matrices, not learned representations. Python code written by the same models scored 97-100%, beating the networks.
+
+This repo collects that analysis, the critiques, and the implications. It is the record of how a sensational AI claim was systematically verified and corrected through independent replication.
+
 ## What is this?
 
 Weight-Space Programming (WSP) is the phenomenon where frontier LLMs (GPT-6 Astra, Claude Opus 5.5) are prompted to write the raw weight matrices of small neural networks directly, without training, gradients, or data. The MIT CSAIL paper "Sparks of Weight-Space Programming" (2026) showed this working on MinAtar games.
