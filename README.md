@@ -58,10 +58,12 @@ LLMs act as **compilers from symbolic reasoning into neural weight structures**.
 
 ## References
 
-- MIT CSAIL: "Sparks of Weight-Space Programming" (2026)
-- Jens Lehmann: experimental replication across 9 models, 20 games
-- Lorenzo Ciarpaglini: forensic reverse-engineering, "The program behind the weights"
-- Dan Fairbanks: weight-editing claims analysis (PIQOS AI Research)
+- MIT CSAIL: "Sparks of Weight-Space Programming" (2026) — the original paper
+- Lorenzo Ciarpaglini: [LinkedIn post](https://www.linkedin.com/posts/ciarpaglini-lorenzo_the-program-behind-the-weights-lorenzo-activity-7524824330850086912-9g2m) and [full article](https://lorenzociarpa.org/blog/program-behind-the-weights/) — forensic reverse-engineering
+- Jens Lehmann: experimental replication across 9 models, 20 games ([paper](https://lnkd.in/epjgK2g7), LinkedIn post referenced in conversation)
+- Dan Fairbanks: [weight-editing claims analysis](https://github.com/danofairanks/PIQOS---AI---Research-public-/blob/Main/papers/drafts/weight_editing_readings_v1.md) (PIQOS AI Research)
+- Kostiantyn Vesna: KANs connection (LinkedIn comment)
+- Better Stack: ESP32 LLM video (YouTube, referenced in conversation)
 
 ## License
 
